@@ -1,8 +1,8 @@
 Package.describe({
-  name: 'q42:autoform-markdown',
+  name: 'redhead:autoform-markdown-materialize',
   version: '1.0.0',
-  summary: 'A simple autoform markdown with preview using perak:markdown',
-  git: 'https://github.com/Q42/meteor-autoform-markdown',
+  summary: 'A simple autoform markdown with preview using perak:markdown and styled for Materialize CSS',
+  git: 'https://github.com/sean-stanley/meteor-autoform-markdown',
   documentation: 'README.md'
 });
 
