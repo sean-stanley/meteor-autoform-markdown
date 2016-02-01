@@ -1,12 +1,14 @@
 <template name="afMarkdown">
 
   <section class="markdownControls">
-    <select class="markdownHeader form-control">
-      <option value="">headers</option>
-      <option value="#"># header 1</option>
-      <option value="##">## header 2</option>
-      <option value="##">### header 3</option>
-    </select>
+    <div class="input-field">
+      <select class="markdownHeader">
+        <option value="" disabled selected>headers</option>
+        <option value="#"># header 1</option>
+        <option value="##">## header 2</option>
+        <option value="##">### header 3</option>
+      </select>
+    </div>
     <button class="markdownBold select btn">**bold**</button>
     <button class="markdownItalic select btn">*italic*</button>
     <button class="markdownList select btn">- list</button>
@@ -18,7 +20,7 @@
       <textarea class="form-control markdownInput" {{atts}}>{{value}}</textarea>
     </section>
     <section class="markdownPreview">
-      <span class="form-control preview">
+      <span class="preview">
           {{{markdownText}}}
       </span>
     </section>
